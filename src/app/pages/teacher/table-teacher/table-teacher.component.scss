@@ -1,0 +1,42 @@
+  .example-container {
+    display: table;
+    width: 95%;
+    text-align: center;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .title {
+    display: table;
+    width: 95%;
+    text-align: center;
+    margin: 10px 10px 10px 10px;
+    font-weight: 500;
+  }
+
+  .mat-table {
+    
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .mat-row:hover {
+    background: rgba(76, 175, 80, 0.3);
+  }
+  .mat-cell {
+    padding: 8px;
+    align-items: center !important;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 500;
+
+    &:visited, &:hover, &:focus, &:hover {
+      text-decoration: none;
+      color: #000;
+      font-weight: 700;
+    }
+  }
